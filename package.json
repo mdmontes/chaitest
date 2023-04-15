@@ -10,8 +10,9 @@
   },
   "license": "ISC",
   "dependencies": {
+    "chai-json-schema": "^1.5.1",
     "dotenv": "^16.0.3",
-    "express": "^4.17.2"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "chai": "^4.3.6",
@@ -19,5 +20,17 @@
     "mocha": "^10.0.0",
     "nodemon": "^2.0.15",
     "puppeteer": "^18.0.5"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmontes/chaitest.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mdmontes/chaitest/issues"
+  },
+  "homepage": "https://github.com/mdmontes/chaitest#readme"
 }
